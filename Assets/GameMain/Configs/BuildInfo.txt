@@ -1,0 +1,10 @@
+{
+  "GameVersion": "0.1.0",
+  "InternalGameVersion": 0,
+  "CheckVersionUrl": "https://yourOSSUrl/Resources/{0}Version.txt",
+  "WindowsAppUrl": "url",
+  "MacOSAppUrl": "url",
+  "IOSAppUrl": "url",
+  "AndroidAppUrl": "url",
+  "END_OF_JSON": ""
+}
