@@ -60,9 +60,11 @@ namespace FlappyBird.Editor.DataTableTools
             for (int i = 0; i < lines.Length; i++)
             {
                 string[] rawValue = lines[i].Split(DataSplitSeparators);
+
                 for (int j = 0; j < rawValue.Length; j++)
                 {
                     rawValue[j] = rawValue[j].Trim(DataTrimSeparators);
+                    //Debug.Log($"rawValue:{rawValue[j]},{i}");
                 }
 
                 if (i == 0)

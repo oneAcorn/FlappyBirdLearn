@@ -14,12 +14,13 @@ namespace FlappyBird
 {
     public static class DataTableExtension
     {
-        private const string DataRowClassPrefixName = "FlapplyBird.DR";
+        private const string DataRowClassPrefixName = "FlappyBird.DR";
         internal static readonly char[] DataSplitSeparators = new char[] { '\t' };
         internal static readonly char[] DataTrimSeparators = new char[] { '\"' };
 
         public static void LoadDataTable(this DataTableComponent dataTableComponent, string dataTableName, string dataTableAssetName, object userData)
         {
+            //Log.Info($"LoadDataTable:{dataTableName}");
             if (string.IsNullOrEmpty(dataTableName))
             {
                 Log.Warning("Data table name is invalid.");
@@ -42,6 +43,7 @@ namespace FlappyBird
             }
 
             string name = splitedNames.Length > 1 ? splitedNames[1] : null;
+            //Log.Info($"datatalbe:{name},name:{dataTableName}");
             DataTableBase dataTable = dataTableComponent.CreateDataTable(dataRowType, name);
             dataTable.ReadData(dataTableAssetName, Constant.AssetPriority.DataTableAsset, userData);
         }

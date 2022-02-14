@@ -5,7 +5,7 @@
 // Feedback: mailto:ellan@gameframework.cn
 //------------------------------------------------------------
 // 此文件由工具自动生成，请勿直接修改。
-// 生成时间：2022-02-11 16:04:28.458
+// 生成时间：2022-02-14 11:21:59.285
 //------------------------------------------------------------
 
 using GameFramework;
@@ -19,14 +19,14 @@ using UnityGameFramework.Runtime;
 namespace FlappyBird
 {
     /// <summary>
-    /// 音乐配置表。
+    /// Music Confg Table。
     /// </summary>
     public class DRMusic : DataRowBase
     {
         private int m_Id = 0;
 
         /// <summary>
-        /// 获取音乐编号。
+        /// 获取Music No。
         /// </summary>
         public override int Id
         {
@@ -37,7 +37,7 @@ namespace FlappyBird
         }
 
         /// <summary>
-        /// 获取资源名称。
+        /// 获取AssetName。
         /// </summary>
         public string AssetName
         {

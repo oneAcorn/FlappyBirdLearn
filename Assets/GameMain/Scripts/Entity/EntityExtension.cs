@@ -63,5 +63,10 @@ namespace FlappyBird
         {
             return --s_SerialId;
         }
+
+        public static void ShowBg(this EntityComponent entityComponent, BgData data)
+        {
+            entityComponent.ShowEntity(typeof(Bg), "Bg", 0, data);
+        }
     }
 }

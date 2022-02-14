@@ -108,6 +108,7 @@ namespace FlappyBird
 
         private void LoadDataTable(string dataTableName)
         {
+            //Debug.Log($"Load DataTable:{dataTableName}");
             string dataTableAssetName = AssetUtility.GetDataTableAsset(dataTableName, false);
             m_LoadedFlag.Add(dataTableAssetName, false);
             GameEntry.DataTable.LoadDataTable(dataTableName, dataTableAssetName, this);
@@ -163,6 +164,7 @@ namespace FlappyBird
         private void OnLoadDataTableSuccess(object sender, GameEventArgs e)
         {
             LoadDataTableSuccessEventArgs ne = (LoadDataTableSuccessEventArgs)e;
+            Debug.Log($"OnLoadDataTableSuccess {ne},{ne.UserData}");
             if (ne.UserData != this)
             {
                 return;
