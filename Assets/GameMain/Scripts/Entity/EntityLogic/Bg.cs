@@ -25,7 +25,7 @@ namespace FlappyBird
             if (CachedTransform.position.x <= mBgData.SpawnTarget && isSpawn == false)
             {
                 //显示背景实体
-                GameEntry.Entity.ShowBg(new BgData(GameEntry.Entity.GenerateSerialId(), mBgData.TypeId, mBgData.MoveSpeed, 20.58f));
+                GameEntry.Entity.ShowBg(new BgData(GameEntry.Entity.GenerateSerialId(), mBgData.TypeId, mBgData.MoveSpeed, 20.45f));
                 isSpawn = true;
             }
 

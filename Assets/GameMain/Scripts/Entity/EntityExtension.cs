@@ -68,5 +68,20 @@ namespace FlappyBird
         {
             entityComponent.ShowEntity(typeof(Bg), "Bg", 0, data);
         }
+
+        public static void ShowPipe(this EntityComponent entityComponent,PipeData data)
+        {
+            entityComponent.ShowEntity(typeof(Pipe), "Pipe", 0, data);
+        }
+
+        public static void ShowBullet(this EntityComponent entityComponent, BulletData data)
+        {
+            entityComponent.ShowEntity(typeof(Bullet), "Bullet", 0, data);
+        }
+
+        public static void ShowBird(this EntityComponent entityComponent, BirdData data)
+        {
+            entityComponent.ShowEntity(typeof(Bird), "Bird", 0, data);
+        }
     }
 }

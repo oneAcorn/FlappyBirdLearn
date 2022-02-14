@@ -45,6 +45,7 @@ namespace FlappyBird
                 mMenuForm = null;
             }
 
+            //取消订阅事件
             GameEntry.Event.Unsubscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenUIFormSuccess);
         }
 
@@ -57,5 +58,6 @@ namespace FlappyBird
             }
             mMenuForm = (MenuForm)ne.UIForm.Logic;
         }
+
     }
 }
