@@ -2,17 +2,17 @@
 <UnityGameFramework>
   <ResourceBuilder>
     <Settings>
-      <InternalResourceVersion>0</InternalResourceVersion>
+      <InternalResourceVersion>5</InternalResourceVersion>
       <Platforms>1</Platforms>
       <AssetBundleCompression>1</AssetBundleCompression>
       <CompressionHelperTypeName>UnityGameFramework.Runtime.DefaultCompressionHelper</CompressionHelperTypeName>
       <AdditionalCompressionSelected>True</AdditionalCompressionSelected>
       <ForceRebuildAssetBundleSelected>False</ForceRebuildAssetBundleSelected>
-      <BuildEventHandlerTypeName>StarForce.Editor.StarForceBuildEventHandler</BuildEventHandlerTypeName>
-      <OutputDirectory></OutputDirectory>
+      <BuildEventHandlerTypeName>FlappyBird.Editor.StarForceBuildEventHandler</BuildEventHandlerTypeName>
+      <OutputDirectory>D:/WorkSpace_Unity/FlappyBirdLearn/AssetsBundle</OutputDirectory>
       <OutputPackageSelected>True</OutputPackageSelected>
-      <OutputFullSelected>True</OutputFullSelected>
-      <OutputPackedSelected>True</OutputPackedSelected>
+      <OutputFullSelected>False</OutputFullSelected>
+      <OutputPackedSelected>False</OutputPackedSelected>
     </Settings>
   </ResourceBuilder>
 </UnityGameFramework>
