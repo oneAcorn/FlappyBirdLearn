@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4F60\u7684\u603B\u5206:0"
+  m_Text: 
 --- !u!1 &4747662010114163803
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,7 +271,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Restart
+  m_Text: Menu.StartButton
 --- !u!1 &5098152568348814457
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,7 +518,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Main Menu
+  m_Text: Menu.QuitButton
 --- !u!1 &9021961146466937894
 GameObject:
   m_ObjectHideFlags: 0

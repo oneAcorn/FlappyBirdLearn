@@ -18,7 +18,7 @@ namespace FlappyBird
         /// <summary>
         /// 射击时间
         /// </summary>
-        private float m_ShootTime = 2f;
+        private float m_ShootTime = 8f;
 
         /// <summary>
         /// 射击计时器

@@ -872,7 +872,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sound:'
+  m_Text: Setting.Sound
 --- !u!1 &7060932365969299901
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,7 +1110,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Music:'
+  m_Text: Setting.Music
 --- !u!1 &8935733351112966511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,4 +1265,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: X
+  m_Text: Setting.CloseIcon

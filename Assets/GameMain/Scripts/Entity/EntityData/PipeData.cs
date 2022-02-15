@@ -29,8 +29,8 @@ namespace FlappyBird
         public PipeData(int entityId, int typeId, float moveSpeed) : base(entityId, typeId)
         {
             MoveSpeed = moveSpeed;
-            OffsetUp = Random.Range(4.66f, 8f);
-            OffsetDown = Random.Range(-3f, -4.05f);
+            OffsetUp = Random.Range(5.66f, 8f);
+            OffsetDown = Random.Range(-0.75f, -3.05f);
             HideTarget = -11f;
         }
 

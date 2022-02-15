@@ -60,8 +60,9 @@ namespace FlappyBird
         protected override void OnHide(bool isShutdown, object userData)
         {
             base.OnHide(isShutdown, userData);
-            //m_UpPipe.gameObject.SetActive(true);
-            //m_DownPipe.gameObject.SetActive(true);
+            //把hide后子物体的Active设置回来
+            m_UpPipe.gameObject.SetActive(true);
+            m_DownPipe.gameObject.SetActive(true);
 
             //取消订阅事件
             GameEntry.Event.Unsubscribe(RestartEventArgs.EventId, OnRestart);
